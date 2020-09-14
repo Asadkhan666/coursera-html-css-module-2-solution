@@ -1,0 +1,37 @@
+<html>
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+</head>
+<body style="background-color:#ffffff;padding:72pt 72pt 72pt 72pt;max-width:468pt">
+<p style="padding:0;margin:0;color:#000000;font-size:11pt;font-family:&quot;Arial&quot;;line-height:1.15;orphans:2;widows:2;text-align:left">
+<span style="color:#000000;font-weight:400;text-decoration:none;vertical-align:baseline;font-size:11pt;font-family:&quot;Arial&quot;;font-style:normal">
+/********** Base styles **********/<br>* {<br> &nbsp;box-sizing: border-box;
+<br> &nbsp;margin: 0;<br> &nbsp;padding: 0;
+<br> &nbsp;font-family: Arial, Helvetica, sans-serif;<br>}
+<br>
+<br>h1 {<br> &nbsp;text-align: center<br>}
+<br>
+<br>section {<br> &nbsp;padding: 40px 20px 20px 20px;
+<br> &nbsp;margin: 2% 2% 2% 2%;
+<br> &nbsp;border: 1px solid black;
+<br> &nbsp;border-width: thick;
+<br> &nbsp;float: left;
+<br> &nbsp;position: relative;
+<br> &nbsp;background-color: grey;<br>}
+<br><br>.row {<br> &nbsp;width: 100%;<br>}
+<br><br>.title {<br> &nbsp;position: absolute;
+<br> &nbsp;top:0;<br> &nbsp;right:0;
+<br> &nbsp;width:30%;
+<br> &nbsp;border: 1px solid black;
+<br> &nbsp;border-width: thick;
+<br> &nbsp;border-top: none;
+<br> &nbsp;border-right: none;<br>
+}<br><br>.pink {<br> &nbsp;background-color: #D59898;<br>}
+<br><br>.red {<br> &nbsp;background-color: #C14543;
+<br> &nbsp;color: white;<br>}<br><br>.gold {<br> &nbsp;background-color: #E5D198;<br>}<br><br><br>/* Simple Responsive Framework. */<br>/********** Large devices only **********/<br>@media (min-width: 992px) {<br> &nbsp;.dev-lg-4 {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 29.00%;
+<br> &nbsp;}<br>}<br>
+<br>/********** Medium devices only **********/<br>@media (min-width: 768px) and (max-width: 991px) {<br> &nbsp;.dev-md-2 {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 46.00%;<br> &nbsp;}<br> &nbsp;.dev-md-1 {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 96.00%;<br> &nbsp;}<br>}<br><br>/********** Small devices only **********/<br>@media (max-width: 767px) {<br> &nbsp;.dev-sm-1 {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width: 96.00%;<br> &nbsp;}<br>}
+</span>
+</p>
+</body>
+</html>
